@@ -98,7 +98,7 @@ In a PowerShell window:
 $env:USE_CONDA = '1'
 $env:PYTHON_VERSION = '3.7'
 $env:PYTHON_ARCH = '64'
-$env:NUMPY_VERSION = '1.14'
+$env:NUMPY_VERSION = '1.14.6'
 git clone https://github.com/letmaik/pyvirtualcam --recursive
 cd pyvirtualcam
 powershell .github/scripts/build-windows.ps1
